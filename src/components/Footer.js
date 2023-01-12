@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
@@ -10,6 +11,7 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Home/>
+  
           <Col size={12} sm={6}>
           <h1 style={{color:"#9b1c00",display:"inline",fontWeight:"bold"}}>Qatar</h1><span style={{color:"#fff"}}>.guide</span>
           </Col>

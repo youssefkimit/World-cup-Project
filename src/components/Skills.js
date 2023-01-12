@@ -36,15 +36,15 @@ export const Skills = () => {
                         <p>Our company offers a wide range of services to meet all of your needs.<br></br> Our three main services include Translation, Map and weather.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                               <a href="/translate"><img src={img2} alt="Image" /></a>
+                               <a href="/translate#translate"><img src={img2} style={{borderRadius:"5px"}} alt="Image" /></a>
                                 <h5>Qatar translation</h5>
                             </div>
                             <div className="item">
-                                <a href="/map"><img src={img1} alt="Image" /></a>
+                                <a href="/map#map"><img src={img1} alt="Image" style={{borderRadius:"5px"}}/></a>
                                 <h5>Map Qatar</h5>
                             </div>
                             <div className="item">
-                               <a href="/service"><img src={img3} alt="Image" /></a>
+                               <a href="/service#weather"><img src={img3} alt="Image" style={{borderRadius:"5px"}}/></a>
                                 <h5>Weather</h5>
                             </div>
       

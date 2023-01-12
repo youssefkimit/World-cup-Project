@@ -21,14 +21,15 @@ function Service(){
 
       return(
     
-    <div className="app">
+    <div className="app" id="weather">
       <div className="search">
         <input
           value={location}
           onChange={event => setLocation(event.target.value)}
           onKeyPress={searchLocation}
           placeholder='Enter Location'
-          type="text" />
+          type="text" 
+          class="form-control p-2 m-3"/>
       </div>
       <div className="container">
         <div className="top">

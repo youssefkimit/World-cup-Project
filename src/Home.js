@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Service from './components/Service';
 import Map from './components/Map';
@@ -6,6 +6,8 @@ import Translate from './components/Translate';
 
 
 function Home() {
+        
+    
   return (
     <BrowserRouter>
         <Routes>
